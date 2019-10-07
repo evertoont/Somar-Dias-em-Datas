@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Somar e Subtrair Dias de Datas</title>
+</head>
+
+<body>
+    <div class="container rounded mt-5">
+        <div class="text-center">
+            <h1 class="display-4 text-center">Somar ou Subtrair dias de uma data</h1>
+            <p class="text-center lead">Basta digitar a data, digitar a quantidade de dias, clicar no botão
+                "Somar/Subtrair Dias" e conferir o resultado abaixo.</p>
+        </div>
+
+        <hr>
+
+        <div class="pb-2 row">
+            <div class="col">
+                <div class="mb-3">
+                    <div class="card card-body ">
+                        <div class="btn-lg btn-block mb-3 bg-secondary text-center text-white">Somar</div>
+                        <p class="h5">Data Base</p>
+                        <input class="mb-1 form-control" type="date" name="date" id="inputDataSoma">
+                        <p class="h5">Quantos dias somar?</p>
+                        <input class="mb-1 form-control" type="text" id="inputDiasSoma">
+                        <button class="btn btn-info" onclick="somarData()">Somar Dias</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="mb-3">
+                    <div class="card card-body ">
+                        <div class="btn-lg btn-block mb-3 bg-secondary text-center text-white">Subtrair</div>
+                        <p class="h5">Data Base</p>
+                        <input class="mb-1 form-control" type="date" name="date" id="inputDataSubtrair">
+                        <p class="h5">Quantos dias subtrair?</p>
+                        <input class="mb-1 form-control" type="text" id="inputDiasSubtrair">
+                        <button class="btn btn-info" onclick="subtrairData()">Subtrair Dias</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control z-depth-1" id="datafinal" rows="2" disabled></textarea>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+body {
+    background: #dddddd;
+}
+
+#datafinal {
+    resize: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
