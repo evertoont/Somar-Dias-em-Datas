@@ -1,3 +1,3 @@
-# Calculadora de Simples de Datas
-Calculadora simples para somar e subtrair dias em datas.  
-Utilizando HTML, CSS (Bootstrap) e JS.
+# Calculadora de Somar/Subtrair Dias em Datas
+Calculadora simples para efetuar a soma eou subtração de dias em datas.  
+Utilizando: HTML, CSS (Bootstrap), JavaSript
